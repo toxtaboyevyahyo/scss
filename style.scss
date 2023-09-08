@@ -124,3 +124,44 @@ body{
         
     
 }
+.intro{
+    padding-top: 130px;
+    &_container{
+       
+    }
+    &_title{
+        color: var(--Font, #0C1523);
+        text-align: center;
+        font-family: Inter;
+        font-size: 42.536px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        margin-bottom: 60px;
+    }
+    &_list{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &_item{
+            
+        }
+        &_title{
+            color: var(--Font, #04060a);
+            font-family: Inter;
+            font-size: 31.912px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+      
+    }
+    &_text{
+        color: var(--Font, #0C1523);
+        font-family: Inter;
+        font-size: 13.333px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+    }
+}

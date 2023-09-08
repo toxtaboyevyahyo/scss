@@ -137,3 +137,43 @@ body {
   -ms-flex-negative: 0;
       flex-shrink: 0;
 }
+
+.intro {
+  padding-top: 130px;
+}
+.intro_title {
+  color: var(--Font, #0C1523);
+  text-align: center;
+  font-family: Inter;
+  font-size: 42.536px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+.intro_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.intro_list_title {
+  color: var(--Font, #04060a);
+  font-family: Inter;
+  font-size: 31.912px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.intro_text {
+  color: var(--Font, #0C1523);
+  font-family: Inter;
+  font-size: 13.333px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
